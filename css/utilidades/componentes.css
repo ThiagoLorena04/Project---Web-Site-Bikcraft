@@ -1,10 +1,18 @@
+.container {
+  box-sizing: border-box;
+  max-width: 1700px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .botao {
   display: flex;
   justify-self: center;
   padding: 16px 32px;
   text-transform: uppercase;
-  background: blue;
-  background: linear-gradient(135deg, #ffbb00, #f2a60d);
+  background: #f2a60d;
   border-radius: 6px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   color: var(--cor-p5);
@@ -12,11 +20,11 @@
   line-height: 1.5;
   font-family: "Poppins";
   font-weight: 500;
+  transition: 0.3s;
 }
 
 .botao:hover {
-  transition: 0.4s;
-  background: linear-gradient(#ffb60d, #e59317);
+  background: #e59317;
 }
 
 @media (max-width: 1200px) {
