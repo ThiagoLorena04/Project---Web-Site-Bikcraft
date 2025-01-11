@@ -1,5 +1,5 @@
 .font-1-xs {
-  font: 400 0.75rem/1.35 "Poppins", sans-serif;
+  font: 400 0.95rem/1.35 "Poppins", sans-serif;
 }
 .font-2-xs {
   font: 400 0.875rem/1.43 "Roboto", sans-serif;
@@ -62,6 +62,30 @@
   }
   .font-2-l,
   .font-2-l-b {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 600px) {
+  .font-2-l,
+  .font-2-l-b {
+    font-size: 1.125rem;
+  }
+}
+@media (max-width: 400px) {
+  .font-1-xxl {
+    font-size: 1.625rem;
+  }
+  .font-2-l,
+  .font-2-l-b {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 320px) {
+  .font-1-xxl {
+    font-size: 1.375rem;
+  }
+  .font-2-l,
+  .font-2-l-b {
+    font-size: 1rem;
   }
 }

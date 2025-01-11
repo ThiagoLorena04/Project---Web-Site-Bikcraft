@@ -17,8 +17,8 @@ body {
 h1,
 h2,
 h3,
-h4 ul,
-p {
+h4,
+ul {
   margin: 0px;
 }
 
@@ -31,4 +31,10 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+blockquote,
+span {
+  margin: 0px;
+  padding: 0px;
 }
