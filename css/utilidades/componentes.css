@@ -36,6 +36,26 @@
   font-family: "Poppins";
   font-weight: 500;
   transition: 0.3s;
+  max-width: max-content;
+}
+
+.botao1.seta {
+  display: flex;
+  align-items: center;
+}
+
+.botao1.seta::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url("../../img/icones/seta.svg");
+  transition: transform 0.2s;
+}
+
+.botao1.seta:hover::after {
+  transform: translateX(6px);
 }
 
 .botao1.secundario {
@@ -70,6 +90,10 @@
 @media (max-width: 600px) {
   .botao {
     margin-top: -20px;
+  }
+  .botao1 {
+    font-size: 16px;
+    padding: 15px 20px;
   }
 }
 
@@ -108,4 +132,27 @@
 
 .link:hover {
   color: var(--cor-0);
+}
+
+/* titulo interno*/
+.titulo-bg {
+  background-color: var(--cor-11);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.titulo p {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .titulo p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
 }
