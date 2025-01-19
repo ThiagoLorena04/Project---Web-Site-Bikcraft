@@ -21,6 +21,8 @@
   font-family: "Poppins";
   font-weight: 500;
   transition: 0.3s;
+  border: none;
+  cursor: pointer;
 }
 
 .botao1 {
@@ -37,6 +39,7 @@
   font-weight: 500;
   transition: 0.3s;
   max-width: max-content;
+  border: none;
 }
 
 .botao1.seta {
